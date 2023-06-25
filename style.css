@@ -1,0 +1,220 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer{
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: auto;
+  }
+
+/* Home section styles */
+#homeSection {
+    background-color: #f9f9f9;
+}
+
+/* Add Material section styles */
+#addMaterialSection {
+    background-color: #f9f9f9;
+}
+
+#addMaterialForm {
+    margin-top: 10px;
+}
+
+#addMaterialForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#addMaterialForm input[type="text"],
+#addMaterialForm input[type="number"],
+#addMaterialForm input[type="date"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#addMaterialForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addMaterialForm button:hover {
+    background-color: #45a049;
+}
+
+/* List of Consumed Materials styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+section {
+    margin-top: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #recordConsumedForm {
+    margin-top: 10px;
+  }
+  
+  #recordConsumedForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #recordConsumedForm select,
+  #recordConsumedForm input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #recordConsumedForm select {
+    height: 40px;
+  }
+  
+  #recordConsumedForm input[type="date"] {
+    height: 38px;
+  }
+  
+  #recordConsumedForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #recordConsumedForm button:hover {
+    background-color: #45a049;
+  }
+  
+  #recordConsumedForm .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  section {
+    margin-top: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #checkAvailabilityForm {
+    margin-top: 10px;
+  }
+  
+  #checkAvailabilityForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #checkAvailabilityForm select,
+  #checkAvailabilityForm button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #checkAvailabilityForm select {
+    width: 30%;
+    height: 40px;
+  }
+  
+  #checkAvailabilityForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #checkAvailabilityForm button:hover {
+    background-color: #45a049;
+  }
+  
+  #checkAvailabilityForm .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
